@@ -6,15 +6,6 @@ A Telegram bot that handles voice recordings, converts them to text using Deepgr
 
 - Voice message transcription (Deepgram Nova-3)
 - Transcript summarization (Ollama Cloud)
-- Async processing with concurrency limit (3 concurrent)
-- Built-in error handling and retry logic
-
-## Prerequisites
-
-- Python 3.10+
-- A Telegram bot token (via [@BotFather](https://t.me/BotFather))
-- A Deepgram API key (free $200 credit, no card required)
-- An Ollama Cloud API key (free tier)
 
 ## Installation
 
@@ -84,11 +75,7 @@ tgbot/
 
 ## Cost
 
-| Provider | Service | Free Tier |
-|----------|---------|-----------|
-| Deepgram | Speech-to-Text (Nova-3) | $200 credit (~45,000 minutes) |
-| Ollama Cloud | Summarization (gpt-oss:20b) | Free tier, light usage |
-
-## License
-
-MIT
+| Provider     | Service                     | Free Tier                     |
+| ------------ | --------------------------- | ----------------------------- |
+| Deepgram     | Speech-to-Text (Nova-3)     | $200 credit (~45,000 minutes) |
+| Ollama Cloud | Summarization (gpt-oss:20b) | Free tier, light usage        |
