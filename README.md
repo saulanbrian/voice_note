@@ -10,8 +10,8 @@ A Telegram bot that handles voice recordings, converts them to text using Deepgr
 ## Installation
 
 ```bash
-git clone <repo-url>
-cd tgbot
+git clone https://github.com/saulanbrian/voice_note.git 
+cd voice_note
 python -m venv env
 source env/bin/activate
 pip install -r requirements.txt
